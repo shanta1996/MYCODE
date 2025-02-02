@@ -17,4 +17,16 @@
 // function abc(){
 // console.log('hello')
 // }
+// const body=document.querySelector('body')
 
+
+const container=document.querySelector('.container')
+let myhtml=``
+for (let i=1;i<=10;i++){
+    myhtml+=`<div>
+    <p>${i}</p>
+    </div>`
+}
+container.innerHTML=myhtml
+container.remove()
+// body.append(container)

@@ -16,6 +16,29 @@ const hea=document.querySelector('h1')
 // }
 
 
+const newtext=document.createElement('p')
+newtext.innerText='hello shanta miss'
+heads.append(newtext)
+newtext.classList.add('paragraph')
+newtext.id='parg'
+console.log(newtext);
+
+
+for (let i=1;i<=10;i++){
+    const image=document.createElement('img')
+    image.src=`sprites/pokemon/${i}.png`
+    // image.setAttribute('src','index.html')
+    image.id='img'
+    paragraph1=document.createElement('p')
+    paragraph1.innerText='shanta chaudhary'
+    console.log(image);
+    
+    para.append(image,paragraph1)
+}
+
+
+
+
 // heading[0].style.color='teal'
 // heading[1].style.backgroundColor='teal'
 
